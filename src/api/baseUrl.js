@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+  return getParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://dry-citadel-14672.herokuapp.com/';
 }
 
 function getParameterByName(name, url) {
